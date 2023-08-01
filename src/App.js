@@ -11,19 +11,19 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div className='App'>
+        <div className='App'>
           <Navbar />
           <Routes>
-          <Route exact path='/' Component={Home} />
-          <Route path='/service' Component={Service} />
-          <Route path='/about' Component={About} />
+            <Route exact path='/' Component={Home} />
+            <Route path='/service' Component={Service} />
+            <Route path='/about' Component={About} />
             <Route path='/contact' Component={Contact} />
             <Route path='/post/:post_id' Component={Post} />
-            </Routes>
+          </Routes>
         </div>
-        </BrowserRouter>
+      </BrowserRouter>
     );
-}
+  }
 }
 
 
