@@ -6,8 +6,9 @@ const Navbar = () => {
     return (
         <nav className="nav-wrapper red darken-3">
             <div className="container row">
-                <a className="brand-logo col s4">OLUWASEAJ</a>
-                <ul className="right col s8">
+                <a className="brand-logo col s4">
+                    <div><Link to="/">OLUWASEAJ</Link></div></a>
+                <ul className="right col s16">
                     <li><Link to="/">Home</Link></li>
                     <li><NavLink to="/service">Service</NavLink></li>
                     <li><NavLink to="/about">About</NavLink></li>
